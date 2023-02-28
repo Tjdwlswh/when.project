@@ -1,0 +1,78 @@
+@font-face { font-family:'오늘만산다';
+    src : url(../font/NanumSquareAcB.woff);
+
+}
+
+
+
+div,input,textarea {box-sizing:border-box;}
+
+body{ margin:0px;
+ font-family:'오늘만산다';
+    font-weight: 900;
+}
+
+p,h4,h3,h2,h1,span{ transform: rotate(0.03deg)}
+
+.form-background {
+    height:800px;
+    background-color:black;
+    padding:30px;
+}
+
+.form-white {
+    background-color:white;
+    padding:30px;
+    width:80%;
+    height:80%;
+    max-width:600px;
+    margin:auto;
+    
+}
+
+.form-input {
+    width:100%;
+    padding:10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+.w-50 { width:50%;
+    float:left;
+    padding:10px;
+    
+}
+
+.w-100 {
+    width:100%;
+    padding:10px;
+    
+}
+
+.w-150 {
+    padding:10px;
+}
+
+.form-input2 {
+    width:100%;
+    padding:10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius:5px;
+    box-sizing:border-box;
+    height:130px;
+}
+
+
+.yellow-button {
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    background-color:bisque;
+    border-radius:5px;
+    position:relative;
+    bottom:30px;
+        
+}

@@ -1,0 +1,85 @@
+
+.container1 {
+    width: 80%;
+    height:200px;
+    background-color:#eee;
+    float:left;
+   
+}
+
+.container2 {
+    width:20%;
+    height:200px;
+    background-color:#eee;
+    float:left;
+  
+}
+
+.container-box1 {
+    width:100%;
+    height:30%;
+    border:1px solid black
+}
+
+.container-box2 { width:100%;
+    height:70%;
+    border:1px solid black
+    
+    
+}
+
+
+
+.widthpx { width:100%;
+    height:100%
+   
+    
+    
+}
+
+.continer {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+ .blog-profile {
+    width:40px;
+    display:block;
+    float:left
+    
+}
+
+.blog-profile2 {
+    width:60%;
+    float:left;
+    
+}
+
+.blog-profile3 {
+    width:10%;
+    float:left
+}
+
+
+.navbar li {
+    
+    display: inline-block;
+     width:60px;
+    text-align:center;
+    background: #eee;
+    padding: 10px;
+    border-radius:10px
+    
+/* class 명 띄어쓰기 li는 모든 li 테그가 클레스를 주게 한다. 스페이스바를 집어넣으면 ~안에 있는 모든 자식들이 해당된다 라는 뜻이다 모든 li태그는 ~을 가져라 라는 뜻이다.   */
+/* navbar>li 는 >의 뜻이 ~안에있는 직계자식만을 뜻한다.   */
+}
+
+.navbar a { font-size:30px;
+    text-decoration: none
+/*    a태그의 밑줄제거 기능을 뜻한다.*/
+}
+
+
+

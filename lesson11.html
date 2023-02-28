@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link href="css/lesson11.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   
+<!--   아이콘 다운방법은 font awesome 5cdnjs 들어가서 all.min.css 파일을 복사해서 가져온다-->
+<!--
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+-->
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    
+     </head>
+    <body>
+  
+        <nav class="div-box"> 
+        <div class="div-item" ><p>Logo</p></div>
+        <div class="div-item" style="flex-grow:1"></div>
+        <div class="div-item" ><p>products</p></div>
+        <div class="div-item" ><p>services</p></div>
+        </nav>
+<!--        flex-grow는 어떤박스를 왼쪽 끝으로 보내고 어떤박스를 오른쪽 끝에 가고 싶을때 만든다. 가운데박스만 키우는 것이다. -->
+       
+       
+       
+       <div class="product-container">
+         
+              <div>
+           <i class="fa-sharp fa-solid fa-cart-shopping fa-2x" ></i>
+<!--              fa-3x는 몇배 아이콘이라는 뜻이다.-->
+               <h4>Fast Shipping</h4>
+               <p>lorem ipsum</p>
+               
+           </div>
+             <div>
+              <i class="fa-solid fa-star fa-2x"></i>
+               <h4>Good service</h4>
+               <p>Expect a lifelong service</p>
+               
+           </div>
+             <div>
+              <i class="fa-solid fa-gift fa-2x"></i>
+               <h4>Free Coupons</h4>
+               <p>lorem ipsum</p>
+               
+           </div>
+             <div>
+              <i class="fa-solid fa-shirt fa-2x"></i>
+               <h4>New Products</h4>
+               <p>lorem ipsum</p>
+               
+           </div>
+           <div style="float:none; clear: both;"></div>
+           
+           
+           
+       </div>
+        
+        
+        <div class="shop-bg">
+            <div class="shop-container">
+                <div class="shop-item">
+                   <div style="position:relative;">
+                    <div class="overlay-wrap">
+                    <div class="overlay-black"><span class="dollar">60$</span></div>
+                    </div>
+                    <img src="img/shoes1.jpg"> 
+                    </div>
+                </div>
+                  <div class="shop-item">
+                    <img src="img/구두.jpg">
+                </div>
+                  <div class="shop-item">
+                    <img src="img/갈색구두.jpg">
+                </div>
+                
+            </div>
+         
+        </div>
+          
+    </body>
+</html>

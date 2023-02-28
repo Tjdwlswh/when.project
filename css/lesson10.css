@@ -1,0 +1,101 @@
+
+/*제목용 세로열 만들때는 <th>를 쓴다.*/
+/*제목생은 <thead>안에 넣고 일반행은 <tbody>안에 넣으면 좋다 분류를 위한 테그이다.기능개발할 때 도움이 된다.*/
+table {
+   border-collapse:collapse;
+/*        <table>은 기본적으로 틈이 존재한다. 없애려면 이 코드를 써야한다.셀간의 간격을 줄이고 시작하는 것이다.*/
+}
+/*table안에서는 세로정렬할때 vertical-align을 쓴다. (top/middle/bottom만 사용가능) */
+/*inline/inline-block요소간의 세로정렬할떄도 vertical-align을 쓴다. */
+/*display:inline은 항상 옆으로 채워지는 폭과 너비가 없는 요소를 말한다.*/
+/*span테그가 그 일종이다 */
+
+
+.cart-background {
+    width:100%;
+    background-color:#c2d3de;
+    padding:30px;
+        
+}
+
+.cart-table {
+    width:100%;
+    max-width:700px;
+    margin:auto;
+    background:white;
+    border-radius:10px;
+}
+
+.cart-table td,.cart-table th {
+ padding: 15px;
+    border-bottom: 1px solid #c2d3de; 
+    
+}
+    
+
+
+
+    /*가로행 만들때는 <tr>  세로행 만들떄는  <td>dater의 약자이고 가로행을 만들 떄는 <table>테그를 쓴다*/
+td,th {
+/*    border:1px solid black;*/
+}
+
+
+.cell-long {
+    width:300px;
+/*    최대한 이만큼 차지해보세요~ 라는 뜻임*/
+    
+}
+
+
+.cart-table th:nth-child(2) { width:400px;}
+/*순서를 기준으로 n번째 등장하는 요소만 스타일링 할때 사용*/
+
+
+
+
+
+.btn { padding : 15px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    background-color :coral;
+    color:white;
+    cursor:pointer;
+/*    온갖 커서들이 많다.*/
+    
+}
+.btn:hover {
+background-color :chocolate;
+}
+/*pseudo-class 언어이다.*/
+.btn:focus {  background-color :darkblue;}
+
+.btn:active { background-color :aqua;
+border: 2px solid black;
+}
+
+/*hofa 순서로 외워라 순서가 중요하다.*/
+
+
+
+.cart-background {
+    
+    
+  
+}
+
+
+/*.input-test {*/
+    font-size:20px;
+
+}
+
+/*.input-test:focus{border:2px solid red;}*/
+
+.custom-link {
+    text-decoration:none;
+      
+}
+.custom-link:link { color:black}
+.custom-link:visited {color:black }
